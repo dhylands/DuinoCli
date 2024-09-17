@@ -39,9 +39,9 @@ def real_main() -> None:
     default_port = os.getenv('CLI_PORT')
 
     parser = argparse.ArgumentParser(
-        prog="pycli",
+        prog="DuinoCli",
         usage="%(prog)s [options] [command]",
-        description="Python Shell for a Microcontroller board.",
+        description="Command Line Interface for Arduino boards.",
         epilog=("You can specify the default serial port using the " +
                 "CLI_PORT environment variable.")
     )
